@@ -109,6 +109,17 @@ background-size:100%;
     border-radius: 50%;
     cursor: pointer;
 }
+.twit{
+    position: absolute;
+    top: 44px;
+    width: 70px;
+    height: 43px;
+    display: flex;
+    right: 180px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 #evento-click{
     display: none;
 }
