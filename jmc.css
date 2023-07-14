@@ -4,7 +4,8 @@ font-family:juma;
 font-size:10px;
 font-weight:lighter;
 color:#FFFFFF;
-background-size:cover;
+background-image: url("1.jpg");
+background-size:100%;
 }
 
 
@@ -96,8 +97,8 @@ background-size:cover;
 .header__modal label{
     font-size: 15px;
     position: absolute;
-    right: 0px;
-    top: 110px;
+    right: 7px;
+    top: 35px;
     background: white;
     background:  linear-gradient( transparent,black,rgba(0,0,0,0.5),#719dce, rgba(0,0,0,0.5),black, transparent);
     width: 40px;
@@ -112,8 +113,8 @@ background-size:cover;
     display: none;
 }
 #evento-click:checked ~ .container__modal{
-    top: 47%;
-  margin-left:38%;
+    top: 14%;
+  margin-left:37%;
     font-size: 15px;
     visibility: visible;
 }
@@ -121,41 +122,6 @@ background-size:cover;
 #evento-click:checked ~ .btn__open-modal{
     top: -80px;
 }
- .temajmcs {
-  margin-left:3%;
-  background:transparent;
-  text-align:center;
- }
-  .temajmcs {
-   width:cover;
-   margin:0 auto;
-   margin-left:0%;
-   margin-top:0%;
-  }
-  .temajmc {
-    width:8%;
-  font-size: 17px;
-    text-align:center;
-    display:inline-block;
-    margin-right:1.1%;
-    margin-bottom:1.0%;
-  }
-  .temajmc img {
-    width:100%;
-   border:3px solid #3ee3f7;
-   border-radius: 23px;
-  }
-  .temajc img {
-   margin-left:0%;
-   margin-top:0%;
-   border:3px solid #3ee3f7;
-   border-radius: 23px;
-  }
-  .temajmc span  {
-   color:white;
-   display:block;
-   padding:10px;
-  }
 .msgs {
     top: 5px;
     margin: 0px;
