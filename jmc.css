@@ -4,7 +4,6 @@ font-family:juma;
 font-size:10px;
 font-weight:lighter;
 color:#FFFFFF;
-background-image: url("1.jpg");
 background-size:100%;
 }
 
@@ -52,12 +51,13 @@ background-size:100%;
  margin-top: 0px;
 }
 #progress {
-    top: 35px;
+    top: 20%;
  font-weight:bold;
  text-shadow: 4px 4px 4px black;
- font-size:17px;
+ font-size:18px;
 }
 .pointer {cursor: pointer;}
+
 
 .btn__open-modal{
     width: 30px;
@@ -122,6 +122,24 @@ background-size:100%;
 }
 #evento-click{
     display: none;
+}
+#degra {
+  line-height: 100%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
+  font-size: 20px;
+font-family: juma;
+  text-align: center;
+  background: linear-gradient(
+    to right, 
+    #4D0099, #1691FF, #A3C5F8, #0AB6FF, #10A5CE, #0F0096, #4B027C, #4D0099);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1000px;
+  background-position: center 0%;
+  animation: background-slide 120s infinite linear;
 }
 #evento-click:checked ~ .container__modal{
     top: 14%;
